@@ -1,4 +1,13 @@
 Data Engineer Practice Exam
+
+Youneed tocreate a new transaction table inCloud Spanner thatstores product sales data. You are deciding what to use as a primary key. From a performance perspective, which strategy should you choose? 
+A.The current epoch time 
+B.A concatenation of the product name and the current epoch time 
+C.A random universally unique identifier number(version4UUID) 
+D. The original order identification number from the sales system, which is a monotonically increasinginteger 
+
+Answer.C
+
 ===========================
 
 You are building storage for files for a data pipeline on Google Cloud. You want to support JSON files. The schema of these files will occasionally change. Your analyst teams will use running aggregate ANSI SQL queries on this data. What should you do?
